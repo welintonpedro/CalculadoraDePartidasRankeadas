@@ -31,8 +31,8 @@ function definirLevelRanked(balanceRanked) {
 
 let winPlayer = 29  //Número de vitórias
 let lossPlayer = 10 //Número de derrotas
+let balanceRanked = calcularRanked(winPlayer, lossPlayer); // Criei uma VARIAVEL chamada balanceRanked para chamar a função 'CalcularRanked' a Função retornar o Saldo de vitorias
 
-///////// CÁLCULO E MOSTRAR O RANKING //////////
- 
-let balanceRanked = calcularRanked(winPlayer, lossPlayer); // Criei uma VARIAVEL chamada balanceRanked para chamar a função 'CalcullarRanked' a Função retornar o Saldo de vitorias
+///////// CÁLCULA E MOSTRAR O RANKING //////////
+
 console.log("Seu Herói tem saldo de vitórias de : " + balanceRanked + ", e você está no RANK: " + definirLevelRanked(balanceRanked)); //Chamei a função com a variavel balanceRanked e imprimi o resultado no console e concatenei com uma função chamando outra função.
